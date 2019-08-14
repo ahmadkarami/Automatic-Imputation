@@ -4,6 +4,7 @@ This module is for imputation missing value in data frame.
 
 this module consideres two type of column: 1. numerical, 2. categorical.
 this module uses Regression for numerical columns and classification for categorical columns.
+categorical column of dara frame must be string not number
 
 usage: Impute(dataFrame, countOfNullPerRowToFill)
 
