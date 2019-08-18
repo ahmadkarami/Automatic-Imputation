@@ -5,8 +5,8 @@ This module is for imputation missing value in data frame.
 this module consideres two type of column: 1. numerical, 2. categorical.
 this module uses Regression for numerical columns and classification for categorical columns.
 
-#### very important point #1: categorical column of dara frame must be string not number.
-#### very important point #2: All columns must either be numeric or string. If there is a column that contains a combination of numbers and strings, you must either delete that column or convert it to a numeric-only or string-only column.
+### very important point #1: categorical column of dara frame must be string not number.
+### very important point #2: All columns must either be numeric or string. If there is a column that contains a combination of numbers and strings, you must either delete that column or convert it to a numeric-only or string-only column.
 
 usage: Impute(dataFrame, countOfNullPerRowToFill)
 
